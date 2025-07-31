@@ -12,7 +12,7 @@ pip install -r requirements.txt
 3. Datasets preparation:
 For UCF101 and HMDB51, you can use [mmaction2](https://github.com/open-mmlab/mmaction2) to extract the raw frame and then resize them using [resize_mydata.py](./distill_utils/resize_mydata.py). For Kinetics-400 and Something-Something V2, you can extract frames using the code in [extract_frames/](./extract_frames/) which were modified from [video_distillation](https://github.com/yuz1wan/video_distillation). 
 
-4. Please download the quantized model weights from 
+4. Please download the quantized model weights from [Hugging Face](https://huggingface.co/datasets/AnonymousUser730/Latent_Video_Distillation/tree/main).
 
 ## Running
 Below are a few example commands to get started.
